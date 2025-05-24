@@ -15,9 +15,8 @@ const bubbleSort = (arr) => {
   return arr
 }
 
-console.log(bubbleSort(arr))
+console.log(`Bubble sort the given array ${arr} to the arr ${bubbleSort(arr)}`)
 
-console.log('========================')
 // Now write the optimized version of the bubble sort
 
 const bubbleSortOptimized = (arr) => {
@@ -47,7 +46,7 @@ const bubbleSortOptimized = (arr) => {
 const sortedArr = [1, 2, 3, 4, 5]
 console.log('Testing with already sorted array:')
 console.log(bubbleSortOptimized(sortedArr))
-
+console.log('========================')
 // Test with an unsorted array
 const unsortedArr = [5, 3, 8, 4, 2]
 console.log('\nTesting with unsorted array:')

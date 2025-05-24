@@ -1,4 +1,3 @@
-console.log('Array')
 const array = [7, 12, 9, 4, 11]
 
 // Find the minimum value in the array
